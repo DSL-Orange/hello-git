@@ -1,0 +1,27 @@
+﻿# 依赖
+node_modules/
+__pycache__/
+.venv/
+
+# 构建产物
+dist/
+build/
+*.exe
+*.zip
+
+# 临时文件
+_tmp/
+*.log
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+
+# 密钥（绝不提交）
+.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
